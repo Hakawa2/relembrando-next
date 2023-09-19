@@ -1,0 +1,45 @@
+.container {
+  background-color: #0f0f0f;
+  height: calc(100vh - 76px);
+  width: 100%;
+}
+
+.hero {
+  height: auto;
+  max-width: 480px;
+  width: auto;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin: 28px;
+  line-height: 150%;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 14px 44px;
+  transition: transform 0.4s;
+}
+
+.box:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 580px) {
+  .hero {
+    max-width: 80%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .box {
+    margin-bottom: 14px;
+    text-align: center;
+    width: 80%;
+  }
+}
